@@ -47,8 +47,9 @@ if numberHappy > numberSad {
     print("Happy")
 } else if numberSad > numberHappy {
     print("sad")
-} else if numberHappy == numberSad {
+} else if numberHappy == numberSad && numberSad != 0 {
     print("unsure")
+} else if numberSad == 0 && numberHappy == 0 {
 }
 
 
